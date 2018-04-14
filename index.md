@@ -8,6 +8,8 @@ Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 [Link to $$x^2$$ page](./another-page.html).
 
+[统计学习方法_概论](./1.html).
+
 There should be whitespace between paragraphs.
 
 There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
