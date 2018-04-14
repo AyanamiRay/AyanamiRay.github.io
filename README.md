@@ -7,4 +7,5 @@ $$n = x$$
 
 formula2: $$n \neq x$$
 
-Math you should come here $x^2$ and it work?
+Math you should come here $x ^ 2$ and it work?
+$$x ^ 2 = 4$$
