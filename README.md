@@ -6,5 +6,5 @@ formula1:
 $$n = x$$
 
 formula2: $$n \neq x$$
-# AyanamiRay.github.io
+
 Math you should come here $x^2$ and it work?
