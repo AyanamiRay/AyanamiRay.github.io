@@ -3,10 +3,10 @@
 ---
 layout: default
 ---
-we should do $$x^2=4$$ amd yes!
+
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
-[Link to another page](./another-page.html).
+[Link to $$x^2$$ page](./another-page.html).
 
 There should be whitespace between paragraphs.
 
