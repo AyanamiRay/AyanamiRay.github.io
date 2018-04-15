@@ -8,7 +8,7 @@ Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 [Link to $$x^2$$ page](./another-page.html).
 
-[统计学习方法_概论](./1.html).
+[统计学习方法笔记](./统计学习方法.html)
 
 There should be whitespace between paragraphs.
 
