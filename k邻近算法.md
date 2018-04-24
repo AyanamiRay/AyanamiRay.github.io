@@ -1,10 +1,7 @@
 <script type="text/javascript" async src="//cdn.bootcss.com/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
 
-## [1. 概论](./统计学习方法_概论.html)
 
-[ganzhiji](./感知机收敛性.html)
 
-[KNN](./k邻近算法.html)
 
 [返回](./)

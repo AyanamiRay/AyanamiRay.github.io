@@ -10,6 +10,8 @@ Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 [统计学习方法笔记](./统计学习方法.html)
 
+[numpy.random类](./numpy_random.html)
+
 There should be whitespace between paragraphs.
 
 There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
