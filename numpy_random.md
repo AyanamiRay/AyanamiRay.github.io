@@ -1,7 +1,9 @@
 <script type="text/javascript" async src="//cdn.bootcss.com/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
 
-### numpy.random.random() 生成随机浮点数
+### numpy.random.random() 
+
+生成随机浮点数
 
 默认为生成一个随机浮点数，范围在$$0.0~1.0$$之间，可以通过设置size大小来设置返回数据的size
 
@@ -12,7 +14,9 @@ import numpy as np
 n = np.random.random(size=(3,2))
 ```
 
-### numpy.random.randint() 生成随机整数
+### numpy.random.randint() 
+
+生成随机整数
 
 例子：
 
@@ -23,7 +27,9 @@ np.random.randint(5,size=3)
 np.random.randint(low=5,high=10,size=3)#指定数的范围
 ```
 
-### numpy.random.normal() 高斯分布随机数
+### numpy.random.normal() 
+
+高斯分布随机数
 
 ```python
 normal(loc=0.0,scale=1.0,size=None)#loc均值 scale标准差 size 抽取样本的大小
@@ -57,14 +63,18 @@ array([[[ 1.07024399,  1.15906395, -0.77406374],
         [-0.753638  ,  0.50768485,  0.11476454]]])
 ```
 
-### numpy.random.rand() 生成$$[0,1)$$间随机数
+### numpy.random.rand() 
+
+生成$$[0,1)$$间随机数
 
 ```python
 import numpy as np
 np.random.rand(2,3)
 ```
 
-### numpy.random.shuffle() 随机打乱序列
+### numpy.random.shuffle() 
+
+随机打乱序列
 
 ```python
 import numpy as np
@@ -86,6 +96,32 @@ import numpy as np
 np.random.choice(['a','b','c','d'])
 np.random.choice(5,6)#输出六个小于5的元素
 np.random.choice(5,3,p=[0.1,0,0.3,0.6,0])#p表示出现0，1，2，3，4的概率为0.1，0，0.3，0.6，0
+```
+### np.random.bytes(length)
+
+返回随机字节
+
+### np.random.seed()
+
+seed()用于指定随机数生成时所用算法开始的整数值，如果使用相同的seed()值，则每次生成的随机数都相同，如果不设置这个值，则系统根据时间来自己选择这个值，此时每次生成的随机数因时间差异而不同。
+
+```python
+import numpy as np
+num=0
+while(num<5):
+  random.seed(5)
+  print(random.random())
+  num+=1
+```
+
+输出：
+
+```
+0.22199317108973948
+0.22199317108973948
+0.22199317108973948
+0.22199317108973948
+0.22199317108973948
 ```
 
 ### 分布
